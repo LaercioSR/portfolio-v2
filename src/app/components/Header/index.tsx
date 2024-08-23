@@ -8,12 +8,14 @@ const ThemeSwitch = dynamic(() => import("../ThemeSwitch"), {
 export default function Header() {
   return (
     <nav className={styles.header}>
-      <ul className={styles["header-side_left"]}></ul>
-      <ul className={styles["header-side_right"]}>
-        <li className={styles["header-side-item"]}>
-          <ThemeSwitch />
-        </li>
-      </ul>
+      <div className={styles["nav-wrapper"]}>
+        <ul className={styles["header-side_left"]}></ul>
+        <ul className={styles["header-side_right"]}>
+          <li className={styles["header-side-item"]}>
+            <ThemeSwitch />
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }
