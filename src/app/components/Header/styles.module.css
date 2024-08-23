@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 10rem;
+}
+
+.header-side_left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+.header-side_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+.header-side-item {
+  margin-left: 1rem;
+}
