@@ -1,3 +1,4 @@
+import LanguageSwitch from "../LanguageSwitch";
 import styles from "./styles.module.css";
 import dynamic from "next/dynamic";
 
@@ -11,7 +12,10 @@ export default function Header() {
       <div className={styles["nav-wrapper"]}>
         <ul className={styles["header-side_left"]}></ul>
         <ul className={styles["header-side_right"]}>
-          <li className={styles["header-side-item"]}>
+          <li>
+            <LanguageSwitch />
+          </li>
+          <li>
             <ThemeSwitch />
           </li>
         </ul>

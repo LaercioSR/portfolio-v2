@@ -25,6 +25,10 @@
   }
 }
 
-.global-button:first-child svg > path {
+.global-button svg > path {
   fill: var(--primary);
+}
+
+.global-button:hover svg > path {
+  fill: var(--secondary);
 }

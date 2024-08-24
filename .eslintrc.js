@@ -16,6 +16,7 @@ module.exports = {
   ],
   extends: [
     "eslint:recommended",
+    "next",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:chai-friendly/recommended",
@@ -37,5 +38,7 @@ module.exports = {
     "no-only-tests/no-only-tests": "error",
     "no-console": ["error", { allow: ["warn", "error"] }],
     "react/no-unknown-property": ["error", { ignore: ["jsx", "global"] }],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
   },
 };
