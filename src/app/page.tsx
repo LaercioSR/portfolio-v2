@@ -10,6 +10,9 @@ import GithubIcon from "./assets/icons/github-logo.svg";
 import EmailIcon from "./assets/icons/email-logo.svg";
 import LinkedinIcon from "./assets/icons/linkedin-logo.svg";
 import ArrowDownIcon from "./assets/icons/arrow-down.svg";
+import Image from "next/image";
+import profileImg from "./assets/profile.png";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -44,9 +47,23 @@ export default function Home() {
           <ArrowDownIcon className={styles["home-intro_section-arrow_down"]} />
         </div>
       </section>
-      <section className={styles["home-about_section"]}>
-        <div className={styles["home-about_section-wrapper"]}></div>
+      <section className={styles["home-about"]}>
+        <div className={styles["home-about-wrapper"]}>
+          <div>
+            <Typography variant="h2">
+              {t("pages.home.about.introduction.label")}
+            </Typography>
+            <Typography variant="h4">
+              {t("pages.home.about.content.label")}
+            </Typography>
+          </div>
+          <Image src={profileImg} alt="Profile photo" />
+          <Typography variant="body1">
+            &quot;{t("pages.home.about.description.label")}&quot;
+          </Typography>
+        </div>
       </section>
+      <Footer />
     </main>
   );
 }
