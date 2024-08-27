@@ -1,3 +1,4 @@
+import BuyMeACoffee from "../BuyMeACoffee";
 import LanguageSwitch from "../LanguageSwitch";
 import styles from "./styles.module.css";
 import dynamic from "next/dynamic";
@@ -12,6 +13,9 @@ export default function Header() {
       <div className={styles["nav-wrapper"]}>
         <ul className={styles["header-side_left"]}></ul>
         <ul className={styles["header-side_right"]}>
+          <li>
+            <BuyMeACoffee />
+          </li>
           <li>
             <LanguageSwitch />
           </li>
