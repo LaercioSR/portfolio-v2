@@ -2,9 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.125rem;
   transition: all 0.3s ease-in-out;
   width: 100%;
+
+  @media (min-width: 768px) {
+    gap: 0.25rem;
+  }
 }
 
 .buy_me_a_coffee-wrapper:hover {
