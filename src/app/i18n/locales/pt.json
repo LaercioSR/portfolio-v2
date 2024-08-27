@@ -7,6 +7,9 @@
       "label": "Português"
     }
   },
+  "profile": {
+    "role": "Desenvolvedor de Software"
+  },
   "components": {
     "buyMeACoffee": {
       "label": "Buy me a coffee"

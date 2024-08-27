@@ -27,6 +27,7 @@
 
 .global-button svg > path {
   fill: var(--primary);
+  transition: all 0.3s ease-in-out;
 }
 
 .global-button:hover svg > path {

@@ -4,3 +4,5 @@ export const BUY_ME_A_COFFEE_LINK =
 export const GITHUB_LINK = "https://github.com/LaercioSR/";
 
 export const LINKEDIN_LINK = "https://www.linkedin.com/in/laerciorios/";
+
+export const EMAIL_LINK = "mailto:contact@laerciorios.com";
