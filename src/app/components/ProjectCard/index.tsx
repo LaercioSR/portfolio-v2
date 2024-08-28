@@ -1,0 +1,50 @@
+import Image from "next/image";
+import GithubIcon from "../../assets/icons/github-logo.svg";
+import LinkIcon from "../../assets/icons/link.svg";
+import styles from "./styles.module.css";
+import Typography from "../Typography";
+
+interface ProjectCardProps {
+  title: string;
+  image: string;
+  link?: string;
+  github?: string;
+}
+
+export default function ProjectCard({
+  title,
+  image,
+  link,
+  github,
+}: ProjectCardProps) {
+  return (
+    <div className={styles["project"]}>
+      <Image
+        src={`/images/projects/${title}/${image}`}
+        alt={title}
+        width={800}
+        height={400}
+      />
+      <div className={styles["project-content"]}>
+        <Typography variant="h4">{title}</Typography>
+        <Typography variant="body2">Description</Typography>
+        <ul>
+          {link && (
+            <li>
+              <a href={link} target="_blank" rel="noreferrer">
+                <LinkIcon />
+              </a>
+            </li>
+          )}
+          {github && (
+            <li>
+              <a href={github} target="_blank" rel="noreferrer">
+                <GithubIcon />
+              </a>
+            </li>
+          )}
+        </ul>
+      </div>
+    </div>
+  );
+}

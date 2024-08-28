@@ -14,6 +14,10 @@
   transition: background-color 0.2s ease-in-out;
 }
 
+.language-switch__item p {
+  text-align: left;
+}
+
 .language-switch__item:hover {
   background-color: var(--secondary);
 }

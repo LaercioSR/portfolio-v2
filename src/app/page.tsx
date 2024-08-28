@@ -13,12 +13,18 @@ import ArrowDownIcon from "./assets/icons/arrow-down.svg";
 import Image from "next/image";
 import profileImg from "./assets/profile.png";
 import Footer from "./components/Footer";
+import { projects } from "./data/projects";
+import ProjectCard from "./components/ProjectCard";
+import Link from "next/link";
+import ArrowRight from "./assets/icons/arrow-right-alt.svg";
 
 export default function Home() {
   const { t } = useTranslation();
 
+  const projectsHighlighted = projects.filter((project) => project.highlight);
+
   return (
-    <main className={styles.page}>
+    <main className={styles.home}>
       <Header />
       <section className={styles["home-intro_section"]}>
         <div className={styles["home-intro_section-wrapper"]}>
@@ -61,6 +67,32 @@ export default function Home() {
           <Typography variant="body1">
             &quot;{t("pages.home.about.description.label")}&quot;
           </Typography>
+        </div>
+      </section>
+      <section className={styles["home-section"]}>
+        <div className={styles["home-section-wrapper"]}>
+          <div className={styles["home-section-title"]}>
+            <Typography variant="h3">
+              {t("pages.home.projects.title.label")}
+            </Typography>
+            <Link href="/projects">
+              <Typography variant="body1">
+                {t("pages.home.projects.seeMore.label")}
+              </Typography>
+              <ArrowRight />
+            </Link>
+          </div>
+          <ul className={styles["projects-list"]}>
+            {projectsHighlighted.map((project) => (
+              <ProjectCard
+                key={project.title}
+                title={project.title}
+                image={project.images[0]}
+                link={project.link}
+                github={project.repository}
+              />
+            ))}
+          </ul>
         </div>
       </section>
       <Footer />

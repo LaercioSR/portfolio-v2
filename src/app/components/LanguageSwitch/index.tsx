@@ -18,6 +18,7 @@ export default function LanguageSwitch() {
 
   function handleToggleLanguage(lng: "en" | "pt") {
     changeLanguage(lng);
+    setIsOpen(false);
   }
 
   return (

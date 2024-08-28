@@ -20,11 +20,27 @@
 }
 
 .header-side_left {
-  list-style-type: none;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  gap: 1rem;
+}
+
+.header-side_left svg {
+  width: 2rem;
+  height: 2rem;
+
+  @media (min-width: 768px) {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.header-side_left svg path {
+  fill: var(--primary);
+  transition: var(--transition);
+}
+
+.header-side_left svg:hover path {
+  fill: var(--secondary);
 }
 
 .header-side_right {

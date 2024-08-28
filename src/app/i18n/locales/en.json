@@ -27,6 +27,14 @@
         "description": {
           "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam massa, ornare eu bibendum a, venenatis non purus. Sed erat purus, porttitor eu posuere interdum, rutrum a nisl. Maecenas maximus volutpat purus sed posuere. Quisque sit amet nisl eros. Sed mollis diam eu libero sagittis cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque quis orci sed orci imperdiet suscipit. Donec cursus leo velit, eget venenatis neque vehicula ut."
         }
+      },
+      "projects": {
+        "title": {
+          "label": "My Projects"
+        },
+        "seeMore": {
+          "label": "See all projects"
+        }
       }
     },
     "projects": {}
