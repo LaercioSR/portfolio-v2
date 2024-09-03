@@ -49,7 +49,7 @@
 }
 
 .home-intro_section-logo {
-  filter: drop-shadow(var(--shadow));
+  filter: drop-shadow(4px 8px 32px rgba(0, 0, 0, 0.25));
 }
 
 .home-intro_section-title {
@@ -143,6 +143,7 @@
   border: 0.25rem solid var(--primary);
   grid-area: a;
   justify-self: center;
+  box-shadow: var(--shadow);
 
   @media (min-width: 768px) {
     justify-self: start;
@@ -221,4 +222,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
+}
+
+.home-presentations-list {
+  list-style-type: none;
 }

@@ -11,6 +11,14 @@
   }
 }
 
+.buy_me_a_coffee-wrapper h4 {
+  display: none;
+
+  @media (min-width: 480px) {
+    display: block;
+  }
+}
+
 .buy_me_a_coffee-wrapper:hover {
   color: var(--secondary);
 }

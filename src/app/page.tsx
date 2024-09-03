@@ -17,6 +17,8 @@ import { projects } from "./data/projects";
 import ProjectCard from "./components/ProjectCard";
 import Link from "next/link";
 import ArrowRight from "./assets/icons/arrow-right-alt.svg";
+import { presentations } from "./data/presentations";
+import PresentationCard from "./components/PresentationCard";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -91,6 +93,50 @@ export default function Home() {
                 link={project.link}
                 github={project.repository}
               />
+            ))}
+          </ul>
+        </div>
+      </section>
+      <section className={styles["home-section"]}>
+        <div className={styles["home-section-wrapper"]}>
+          <div className={styles["home-section-title"]}>
+            <Typography variant="h3">
+              {t("pages.home.experience.title.label")}
+            </Typography>
+            <Link href="/">
+              <Typography variant="body1">
+                {t("pages.home.experience.seeMore.label")}
+              </Typography>
+              <ArrowRight />
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section className={styles["home-section"]}>
+        <div className={styles["home-section-wrapper"]}>
+          <div className={styles["home-section-title"]}>
+            <Typography variant="h3">
+              {t("pages.home.formation.title.label")}
+            </Typography>
+          </div>
+        </div>
+      </section>
+      <section className={styles["home-section"]}>
+        <div className={styles["home-section-wrapper"]}>
+          <div className={styles["home-section-title"]}>
+            <Typography variant="h3">
+              {t("pages.home.presentations.title.label")}
+            </Typography>
+          </div>
+          <ul className={styles["home-presentations-list"]}>
+            {presentations.map((presentation) => (
+              <li key={presentation.title}>
+                <PresentationCard
+                  title={presentation.title}
+                  link={presentation.link}
+                  date={presentation.date}
+                />
+              </li>
             ))}
           </ul>
         </div>

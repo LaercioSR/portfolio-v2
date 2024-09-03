@@ -35,6 +35,24 @@
         "seeMore": {
           "label": "Veja todos os projetos"
         }
+      },
+      "experience": {
+        "title": {
+          "label": "Experiência"
+        },
+        "seeMore": {
+          "label": "Veja meu currículo completo"
+        }
+      },
+      "formation": {
+        "title": {
+          "label": "Formação"
+        }
+      },
+      "presentations": {
+        "title": {
+          "label": "Apresentações"
+        }
       }
     },
     "projects": {}
