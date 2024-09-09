@@ -55,6 +55,19 @@
         }
       }
     },
-    "projects": {}
+    "projects": {},
+    "presentations": {
+      "masterChefEcomp": {
+        "title": {
+          "label": "MasterChef ECOMP: A Receita para Fazer um Bom Código"
+        },
+        "event": {
+          "label": "XXX SIECOMP"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+        }
+      }
+    }
   }
 }

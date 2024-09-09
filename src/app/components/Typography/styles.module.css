@@ -1,5 +1,6 @@
 .typography {
   text-align: center;
+  white-space: pre-wrap;
 }
 
 .headline1 {

@@ -1,8 +1,7 @@
+"use client";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import moment from "moment";
-import "moment/dist/locale/pt";
 
 import pt from "./locales/pt.json";
 import en from "./locales/en.json";
@@ -44,12 +43,6 @@ i18n
         if (format === "roundNumber" && value) {
           value = Math.round(value);
           return value.toLocaleString(lng);
-        }
-
-        if (value instanceof Date) {
-          return moment(value)
-            .locale(lng || "")
-            .format(format);
         }
 
         return value;

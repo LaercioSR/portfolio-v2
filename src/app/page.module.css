@@ -226,4 +226,12 @@
 
 .home-presentations-list {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-presentations-list li {
+  width: 100%;
+  max-width: 60rem;
 }
