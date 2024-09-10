@@ -57,7 +57,42 @@
     }
   },
   "data": {
-    "projects": {},
+    "formation": {
+      "": {
+        "institution": {
+          "label": ""
+        },
+        "course": {
+          "label": ""
+        }
+      }
+    },
+    "experience": {
+      "": {
+        "institution": {
+          "label": ""
+        },
+        "position": {
+          "label": ""
+        },
+        "location": {
+          "label": ""
+        },
+        "description": {
+          "label": ""
+        }
+      }
+    },
+    "projects": {
+      "": {
+        "title": {
+          "label": ""
+        },
+        "description": {
+          "label": ""
+        }
+      }
+    },
     "presentations": {
       "masterChefEcomp": {
         "title": {

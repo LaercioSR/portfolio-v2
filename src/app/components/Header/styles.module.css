@@ -6,6 +6,10 @@
   background-color: var(--home);
 }
 
+.header--transparent {
+  background-color: transparent;
+}
+
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
