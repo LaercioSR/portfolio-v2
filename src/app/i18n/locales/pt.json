@@ -54,8 +54,113 @@
           "label": "Apresentações"
         }
       }
+    }
+  },
+  "data": {
+    "formations": {
+      "types": {
+        "bachelor": {
+          "label": "Bacharelado"
+        },
+        "technician": {
+          "label": "Técnico"
+        },
+        "locked": {
+          "label": "Trancado"
+        }
+      },
+      "cc": {
+        "label": "Ciência da Computação"
+      },
+      "ecomp": {
+        "label": "Engenharia de Computação"
+      },
+      "systemDevelopment": {
+        "label": "Desenvolvimento de Sistemas"
+      }
     },
-    "projects": {},
+    "experiences": {
+      "geodatin": {
+        "role": {
+          "label": "Desenvolvedor Fullstack"
+        },
+        "location": {
+          "label": "Remoto (Feira de Santana - BA)"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+        }
+      },
+      "golfarma": {
+        "role": {
+          "label": "Desenvolvedor Backend (Estágio)"
+        },
+        "location": {
+          "label": "Remoto/Presencial (Feira de Santana - BA)"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+        }
+      }
+    },
+    "projects": {
+      "portfolioV2": {
+        "title": {
+          "label": "Site Pessoal v2"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+        }
+      },
+      "semesterUefs": {
+        "title": {
+          "label": "Semestre UEFS"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+        }
+      },
+      "portfolioV1": {
+        "title": {
+          "label": "Site Pessoal v1"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+        }
+      },
+      "ondeAssistir": {
+        "title": {
+          "label": "Onde Assistir"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+        }
+      },
+      "ppbio": {
+        "title": {
+          "label": "Programa Prioritário de Bioeconomia (PPBio)"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+        }
+      },
+      "rhisa": {
+        "title": {
+          "label": "Rhisa"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+        }
+      },
+      "leadbase": {
+        "title": {
+          "label": "Leadbase"
+        },
+        "description": {
+          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+        }
+      }
+    },
     "presentations": {
       "masterChefEcomp": {
         "title": {

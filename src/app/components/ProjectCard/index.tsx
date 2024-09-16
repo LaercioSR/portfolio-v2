@@ -3,6 +3,7 @@ import GithubIcon from "../../assets/icons/github-logo.svg";
 import LinkIcon from "../../assets/icons/link.svg";
 import styles from "./styles.module.css";
 import Typography from "../Typography";
+import { useTranslation } from "react-i18next";
 
 interface ProjectCardProps {
   title: string;
@@ -17,6 +18,8 @@ export default function ProjectCard({
   link,
   github,
 }: ProjectCardProps) {
+  const { t } = useTranslation();
+
   return (
     <div className={styles["project"]}>
       <Image
@@ -26,8 +29,12 @@ export default function ProjectCard({
         height={400}
       />
       <div className={styles["project-content"]}>
-        <Typography variant="h4">{title}</Typography>
-        <Typography variant="body2">Description</Typography>
+        <Typography variant="h4">
+          {t(`data.projects.${title}.title.label`)}
+        </Typography>
+        <Typography variant="body2">
+          {t(`data.projects.${title}.description.label`)}
+        </Typography>
         <ul>
           {link && (
             <li>
