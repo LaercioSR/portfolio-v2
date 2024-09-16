@@ -18,7 +18,9 @@ import ProjectCard from "./components/ProjectCard";
 import Link from "next/link";
 import ArrowRight from "./assets/icons/arrow-right-alt.svg";
 import { presentations } from "./data/presentations";
+import { formations } from "./data/formations";
 import PresentationCard from "./components/PresentationCard";
+import FormationCard from "./components/FormationCard";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -119,6 +121,19 @@ export default function Home() {
               {t("pages.home.formation.title.label")}
             </Typography>
           </div>
+          <ul className={styles["formation-list"]}>
+            {formations.map((formation) => (
+              <FormationCard
+                key={formation.title}
+                title={formation.title}
+                type={formation.type}
+                institution={formation.institution}
+                startYear={formation.startYear}
+                endYear={formation.endYear}
+                isLocked={formation.isLocked}
+              />
+            ))}
+          </ul>
         </div>
       </section>
       <section className={styles["home-section"]}>
