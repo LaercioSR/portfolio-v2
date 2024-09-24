@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
-import Typography from "../Typography";
-import styles from "./styles.module.css";
+
 import CoffeeSvg from "../../assets/icons/coffee.svg";
 import { BUY_ME_A_COFFEE_LINK } from "../../utils/contrants";
+import Typography from "../Typography";
+import styles from "./styles.module.css";
 
 export default function BuyMeACoffee() {
   const { t } = useTranslation();

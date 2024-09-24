@@ -1,9 +1,10 @@
+import dynamic from "next/dynamic";
+import Link from "next/link";
+
+import ArrowLeft from "../../assets/icons/arrow-left.svg";
 import BuyMeACoffee from "../BuyMeACoffee";
 import LanguageSwitch from "../LanguageSwitch";
 import styles from "./styles.module.css";
-import dynamic from "next/dynamic";
-import ArrowLeft from "../../assets/icons/arrow-left.svg";
-import Link from "next/link";
 
 const ThemeSwitch = dynamic(() => import("../ThemeSwitch"), {
   ssr: false,

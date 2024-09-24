@@ -1,11 +1,12 @@
-import ButtonCustom from "../ButtonCustom";
-import LanguageSvg from "../../assets/icons/language.svg";
-import React from "react";
-import styles from "./styles.module.css";
 import { changeLanguage } from "i18next";
-import { useTranslation } from "react-i18next";
-import Typography from "../Typography";
 import i18next from "i18next";
+import React from "react";
+import { useTranslation } from "react-i18next";
+
+import LanguageSvg from "../../assets/icons/language.svg";
+import ButtonCustom from "../ButtonCustom";
+import Typography from "../Typography";
+import styles from "./styles.module.css";
 
 export default function LanguageSwitch() {
   const [isOpen, setIsOpen] = React.useState(false);

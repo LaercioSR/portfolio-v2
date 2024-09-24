@@ -1,6 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 import Typography from "../Typography";
 import styles from "./styles.module.css";
-import { useTranslation } from "react-i18next";
 
 interface FormationCardProps {
   title: string;

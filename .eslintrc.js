@@ -13,6 +13,7 @@ module.exports = {
     "cypress",
     "chai-friendly",
     "no-only-tests",
+    "eslint-plugin-import-helpers",
   ],
   extends: [
     "eslint:recommended",
@@ -32,6 +33,9 @@ module.exports = {
     react: {
       version: "detect",
     },
+    "import/resolver": {
+      typescript: {},
+    },
   },
   ignorePatterns: ["node_modules/"],
   rules: {
@@ -40,5 +44,34 @@ module.exports = {
     "react/no-unknown-property": ["error", { ignore: ["jsx", "global"] }],
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "error",
+    "import/prefer-default-export": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
+      },
+    ],
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        newlinesBetween: "always",
+        groups: ["module", "/^@/", ["parent", "sibling", "index"]],
+        alphabetize: {
+          order: "asc",
+          ignoreCase: true,
+        },
+      },
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        devDependencies: ["**/*.spec.ts", "**/*.spec.js", "jest.config.ts"],
+      },
+    ],
   },
 };

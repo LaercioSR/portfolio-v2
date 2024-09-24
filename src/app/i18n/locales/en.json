@@ -42,6 +42,9 @@
         },
         "seeMore": {
           "label": "See my full resume"
+        },
+        "summary": {
+          "label": "Summary"
         }
       },
       "formation": {

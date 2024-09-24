@@ -1,26 +1,27 @@
 "use client";
-import styles from "./page.module.css";
-import Header from "./components/Header";
 import "./i18n";
-import Logo from "./assets/logo.svg";
-import Typography from "./components/Typography";
-import { useTranslation } from "react-i18next";
-import { GITHUB_LINK, EMAIL_LINK, LINKEDIN_LINK } from "./utils/contrants";
-import GithubIcon from "./assets/icons/github-logo.svg";
-import EmailIcon from "./assets/icons/email-logo.svg";
-import LinkedinIcon from "./assets/icons/linkedin-logo.svg";
-import ArrowDownIcon from "./assets/icons/arrow-down.svg";
 import Image from "next/image";
+import Link from "next/link";
+import { useTranslation } from "react-i18next";
+
+import ArrowDownIcon from "./assets/icons/arrow-down.svg";
+import ArrowRight from "./assets/icons/arrow-right-alt.svg";
+import EmailIcon from "./assets/icons/email-logo.svg";
+import GithubIcon from "./assets/icons/github-logo.svg";
+import LinkedinIcon from "./assets/icons/linkedin-logo.svg";
+import Logo from "./assets/logo.svg";
 import profileImg from "./assets/profile.png";
 import Footer from "./components/Footer";
-import { projects } from "./data/projects";
-import ProjectCard from "./components/ProjectCard";
-import Link from "next/link";
-import ArrowRight from "./assets/icons/arrow-right-alt.svg";
-import { presentations } from "./data/presentations";
-import { formations } from "./data/formations";
-import PresentationCard from "./components/PresentationCard";
 import FormationCard from "./components/FormationCard";
+import Header from "./components/Header";
+import PresentationCard from "./components/PresentationCard";
+import ProjectCard from "./components/ProjectCard";
+import Typography from "./components/Typography";
+import { formations } from "./data/formations";
+import { presentations } from "./data/presentations";
+import { projects } from "./data/projects";
+import styles from "./page.module.css";
+import { GITHUB_LINK, EMAIL_LINK, LINKEDIN_LINK } from "./utils/contrants";
 
 export default function Home() {
   const { t } = useTranslation();

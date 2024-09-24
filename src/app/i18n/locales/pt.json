@@ -42,6 +42,9 @@
         },
         "seeMore": {
           "label": "Veja meu currículo completo"
+        },
+        "summary": {
+          "label": "Resumo"
         }
       },
       "formation": {

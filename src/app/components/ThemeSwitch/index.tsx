@@ -1,7 +1,8 @@
 import { useTheme } from "next-themes";
-import ButtonCustom from "../ButtonCustom";
-import LightModeSvg from "../../assets/icons/light-mode.svg";
+
 import DarkModeSvg from "../../assets/icons/dark-mode.svg";
+import LightModeSvg from "../../assets/icons/light-mode.svg";
+import ButtonCustom from "../ButtonCustom";
 
 export default function ThemeSwitch() {
   const { theme, setTheme } = useTheme();

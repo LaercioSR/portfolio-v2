@@ -1,10 +1,10 @@
+import EmailIcon from "../../assets/icons/email-logo.svg";
+import GithubIcon from "../../assets/icons/github-logo.svg";
+import LinkedinIcon from "../../assets/icons/linkedin-logo.svg";
+import { GITHUB_LINK, EMAIL_LINK, LINKEDIN_LINK } from "../../utils/contrants";
 import BuyMeACoffee from "../BuyMeACoffee";
 import Typography from "../Typography";
 import styles from "./styles.module.css";
-import { GITHUB_LINK, EMAIL_LINK, LINKEDIN_LINK } from "../../utils/contrants";
-import GithubIcon from "../../assets/icons/github-logo.svg";
-import EmailIcon from "../../assets/icons/email-logo.svg";
-import LinkedinIcon from "../../assets/icons/linkedin-logo.svg";
 
 export default function Footer() {
   return (

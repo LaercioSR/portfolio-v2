@@ -1,9 +1,10 @@
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
+
 import GithubIcon from "../../assets/icons/github-logo.svg";
 import LinkIcon from "../../assets/icons/link.svg";
-import styles from "./styles.module.css";
 import Typography from "../Typography";
-import { useTranslation } from "react-i18next";
+import styles from "./styles.module.css";
 
 interface ProjectCardProps {
   title: string;
