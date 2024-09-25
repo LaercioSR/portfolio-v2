@@ -4,6 +4,7 @@
   --tertiary: #e88d8d;
   --background: #fff4f4;
   --home: #ebd5d2;
+  --primary-transparent: #6600001a;
 
   --shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.25);
 
@@ -16,6 +17,7 @@
   --tertiary: #804646;
   --background: #120000;
   --home: #400000;
+  --primary-transparent: #fefefe1a;
 }
 
 * {

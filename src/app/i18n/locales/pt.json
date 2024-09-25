@@ -8,7 +8,12 @@
     }
   },
   "profile": {
-    "role": "Desenvolvedor de Software"
+    "position": "Desenvolvedor de Software"
+  },
+  "general": {
+    "current": {
+      "label": "Atual"
+    }
   },
   "components": {
     "buyMeACoffee": {
@@ -84,25 +89,25 @@
     },
     "experiences": {
       "geodatin": {
-        "role": {
+        "position": {
           "label": "Desenvolvedor Fullstack"
         },
         "location": {
           "label": "Remoto (Feira de Santana - BA)"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+          "label": "Geodatin - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
         }
       },
       "golfarma": {
-        "role": {
+        "position": {
           "label": "Desenvolvedor Backend (Estágio)"
         },
         "location": {
-          "label": "Remoto/Presencial (Feira de Santana - BA)"
+          "label": "Híbrido (Feira de Santana - BA)"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+          "label": "Golfarma - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
         }
       }
     },

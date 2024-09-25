@@ -8,7 +8,12 @@
     }
   },
   "profile": {
-    "role": "Software Engineer"
+    "position": "Software Engineer"
+  },
+  "general": {
+    "current": {
+      "label": "Current"
+    }
   },
   "components": {
     "buyMeACoffee": {
@@ -84,7 +89,7 @@
     },
     "experiences": {
       "geodatin": {
-        "role": {
+        "position": {
           "label": "Fullstack Developer"
         },
         "location": {
@@ -95,11 +100,11 @@
         }
       },
       "golfarma": {
-        "role": {
+        "position": {
           "label": "Backend Developer (Intern)"
         },
         "location": {
-          "label": "Remote/On-site (Feira de Santana, Brazil)"
+          "label": "Hybrid (Feira de Santana, Brazil)"
         },
         "description": {
           "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
