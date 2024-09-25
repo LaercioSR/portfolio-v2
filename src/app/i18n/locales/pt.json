@@ -50,6 +50,9 @@
         },
         "summary": {
           "label": "Resumo"
+        },
+        "hasNotSummary": {
+          "label": "Clique em algumas das experiências para ver mais detalhes"
         }
       },
       "formation": {

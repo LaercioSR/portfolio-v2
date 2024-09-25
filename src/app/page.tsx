@@ -28,13 +28,12 @@ import { GITHUB_LINK, EMAIL_LINK, LINKEDIN_LINK } from "./utils/contrants";
 
 export default function Home() {
   const { t } = useTranslation();
-  const { innerWidth: windowWidth } = window;
 
   const projectsHighlighted = projects.filter((project) => project.highlight);
   const [experiencesWithActive, setExperiencesWithActive] = useState(
     experiences.map((experience, index) => ({
       ...experience,
-      active: index === 0 && windowWidth > 1024,
+      active: index === 0,
     })),
   );
 
@@ -44,15 +43,13 @@ export default function Home() {
     );
     return activeExperience
       ? t(`data.experiences.${activeExperience.title}.description.label`)
-      : "";
+      : t("pages.home.experience.hasNotSummary.label");
   }, [experiencesWithActive, t]);
 
   function handleActiveExperienceChange(title: string) {
     const updatedExperiences = experiencesWithActive.map((experience) => ({
       ...experience,
-      active:
-        experience.title === title &&
-        (!experience.active || windowWidth > 1024),
+      active: experience.title === title && !experience.active,
     }));
     setExperiencesWithActive(updatedExperiences);
   }

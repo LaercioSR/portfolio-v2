@@ -50,6 +50,9 @@
         },
         "summary": {
           "label": "Summary"
+        },
+        "hasNotSummary": {
+          "label": "Click on some of the experiences to see more details"
         }
       },
       "formation": {
