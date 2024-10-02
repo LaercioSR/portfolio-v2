@@ -58,6 +58,11 @@
 
 .projects-list-item svg path {
   fill: var(--primary);
+  transition: var(--transition);
+}
+
+.projects-list-item svg:hover path {
+  fill: var(--secondary);
 }
 
 .projects-list-item-skills_list {
