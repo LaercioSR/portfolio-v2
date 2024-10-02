@@ -24,8 +24,9 @@
   flex-direction: column;
   justify-content: center;
   background-color: var(--home);
-  height: 8.5rem;
+  height: 10rem;
   border-radius: 0 0 0.5rem 0.5rem;
+  padding: 0.25rem 0.5rem;
 }
 
 .project-content p {
