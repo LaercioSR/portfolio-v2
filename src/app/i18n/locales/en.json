@@ -30,7 +30,7 @@
           "label": "Fullstack developer focused on NodeJs and React"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam massa, ornare eu bibendum a, venenatis non purus. Sed erat purus, porttitor eu posuere interdum, rutrum a nisl. Maecenas maximus volutpat purus sed posuere. Quisque sit amet nisl eros. Sed mollis diam eu libero sagittis cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque quis orci sed orci imperdiet suscipit. Donec cursus leo velit, eget venenatis neque vehicula ut."
+          "label": "I'm a FullStack developer focused on JavaScript/TypeScript, with experience in Node.js and React.js. I have experience creating Restful APIs with clear and detailed documentation integrated with relational databases like PostgreSQL. I also have experience developing responsive interfaces and implementing efficient development and deployment pipelines (CI/CD) using Docker and GitHub Actions. In addition, I have experience creating unit and integration tests, ensuring the quality and robustness of the applications."
         }
       },
       "projects": {
@@ -64,6 +64,11 @@
         "title": {
           "label": "Presentations"
         }
+      }
+    },
+    "projects": {
+      "title": {
+        "label": "FULL PORTFOLIO"
       }
     }
   },
@@ -99,7 +104,7 @@
           "label": "Remote (Feira de Santana, Brazil)"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+          "label": "The company specializes in developing systems that integrate data intelligence and geoinformation to offer innovative solutions. My main responsibilities involve creating and maintaining Restful APIs with automated integration testing, using Node.js and TypeScript, as well as developing responsive interfaces in web applications, using React. I am also responsible for managing and optimizing databases related to PostgreSQL performing modeling and query enhancement.\n\nIn addition, we develop internal scripts and libraries focused on automating web scraping processes, prioritizing efficiency and reuse. My role also includes configuring and automating CI/CD pipelines with GitHub Actions, facilitating the flow of development and continuous deployment. Participate in meetings with clients to understand their needs and ensure that the solutions provided are aligned with their expectations."
         }
       },
       "golfarma": {
@@ -110,17 +115,36 @@
           "label": "Hybrid (Feira de Santana, Brazil)"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+          "label": "The pharmaceutical distributor, focused on the Bahian market, began investing in technology at the end of 2019 to keep up with the transformations in the sector. During my time at the company, I worked on the development, creation, and maintenance of Restful APIs, using PHP (Laravel), ensuring the efficiency and scalability of the implemented solutions.\n\nI was also responsible for managing and maintaining databases with SQL Server and PostgreSQL, ensuring the integrity and performance of the stored information. In addition, I maintained direct contact with customers to understand their needs, solve problems, and ensure the proper implementation of the developed systems."
         }
       }
     },
     "projects": {
+      "types": {
+        "personal": {
+          "label": "Personal"
+        },
+        "professional": {
+          "label": "Professional"
+        },
+        "academic": {
+          "label": "Academic"
+        }
+      },
+      "libScrapper": {
+        "title": {
+          "label": "Internal Web Scraping Lib"
+        },
+        "description": {
+          "label": "Library to automate internal web scraping processes. Obtaining data efficiently and reusably for various internal projects."
+        }
+      },
       "portfolioV2": {
         "title": {
           "label": "Personal Website v2"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "The second version of my personal website. The site was developed with the purpose of showcasing my skills and experiences, as well as serving as a portfolio for my projects. I also took the opportunity to apply my design knowledge."
         }
       },
       "semesterUefs": {
@@ -128,7 +152,7 @@
           "label": "Semester UEFS"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Platform with a countdown to the end of the academic semester at UEFS, along with a calendar featuring automatic updates to assist the academic community."
         }
       },
       "portfolioV1": {
@@ -136,7 +160,7 @@
           "label": "Personal Website v1"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "First version of my personal website. It is currently outdated."
         }
       },
       "ondeAssistir": {
@@ -144,7 +168,7 @@
           "label": "Onde Assistir (Where to Watch)"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Platform that gathers information on where to watch live football matches, based on services available in Brazil. Developed as an academic project."
         }
       },
       "ppbio": {
@@ -152,7 +176,7 @@
           "label": "PPBio"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Platform featuring a listing of projects for fundraising, focused on the Legal Amazon region. I contributed by developing the API."
         }
       },
       "rhisa": {
@@ -160,7 +184,7 @@
           "label": "Rhisa"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Platform focused on creating a network of researchers working in the Legal Amazon region. I contributed to the development of the API and data scraping."
         }
       },
       "leadbase": {
@@ -168,7 +192,7 @@
           "label": "Leadbase"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Data management platform for pharmacies."
         }
       }
     },
@@ -181,7 +205,7 @@
           "label": "XXX SIECOMP"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+          "label": "The talk addressed the importance of learning the basics and making a correlation between cooking and programming. The idea was to show that, just as in cooking, it is necessary to understand the ingredients and their functions to create an elaborate cake, in programming it is necessary to understand the concepts and their applications to create efficient and quality code."
         }
       }
     }

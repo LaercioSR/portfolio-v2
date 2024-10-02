@@ -30,7 +30,7 @@
           "label": "Programador fullstack com foco NodeJs e React"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam massa, ornare eu bibendum a, venenatis non purus. Sed erat purus, porttitor eu posuere interdum, rutrum a nisl. Maecenas maximus volutpat purus sed posuere. Quisque sit amet nisl eros. Sed mollis diam eu libero sagittis cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque quis orci sed orci imperdiet suscipit. Donec cursus leo velit, eget venenatis neque vehicula ut."
+          "label": "Sou desenvolvedor FullStack focado em JavaScript/TypeScript, com experiência em Node.js e React.js.Tenho experiência na criação de APIs Restful com documentações claras e detalhadas, integradas a bancos de dados relacionais como PostgreSQL. Também possuo experiência no desenvolvimento de interfaces responsivas e na implementação de pipelines de desenvolvimento e deploy eficientes (CI/CD), utilizando Docker e GitHub Actions. Além disso, possuo experiência na criação de testes unitários e de integração, garantindo a qualidade e a robustez das aplicações."
         }
       },
       "projects": {
@@ -64,6 +64,11 @@
         "title": {
           "label": "Apresentações"
         }
+      }
+    },
+    "projects": {
+      "title": {
+        "label": "PORTFÓLIO COMPLETO"
       }
     }
   },
@@ -99,7 +104,7 @@
           "label": "Remoto (Feira de Santana - BA)"
         },
         "description": {
-          "label": "Geodatin - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+          "label": "A empresa é especializada no desenvolvimento de sistemas que integram inteligência de dados e geoinformação para oferecer soluções inovadoras. Minhas principais responsabilidades envolvem a criação e manutenção de APIs Restful com testes de integração automatizados, utilizando Node.js e TypeScript, além do desenvolvimento de interfaces responsivas em aplicações web, usando React. Também sou responsável pelo gerenciamento e otimização de bancos de dados relacionais com PostgreSQL, realizando modelagem e aprimoramento de consultas.\n\nAlém disso, desenvolvo scripts e bibliotecas internas focados na automação de processos de web scraping, priorizando a eficiência e reutilização. Minha atuação inclui ainda a configuração e automação de pipelines de CI/CD com GitHub Actions, facilitando o fluxo de desenvolvimento e deploy contínuo. Participo ativamente de reuniões com clientes para entender suas necessidades e assegurar que as soluções desenvolvidas estejam alinhadas com suas expectativas."
         }
       },
       "golfarma": {
@@ -110,17 +115,36 @@
           "label": "Híbrido (Feira de Santana - BA)"
         },
         "description": {
-          "label": "Golfarma - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+          "label": "A distribuidora farmacêutica, com foco no mercado baiano, começou a investir em tecnologia no final de 2019 para acompanhar as transformações do setor. Durante meu período na empresa, atuei no desenvolvimento, criação e manutenção de APIs Restful, utilizando PHP (Laravel), garantindo a eficiência e escalabilidade das soluções implementadas.\n\nTambém fui responsável pelo gerenciamento e manutenção de bancos de dados com SQL Server e PostgreSQL, assegurando a integridade e a performance das informações armazenadas. Além disso, mantive contato direto com clientes para entender suas necessidades, solucionar problemas e garantir a implementação adequada dos sistemas desenvolvidos."
         }
       }
     },
     "projects": {
+      "types": {
+        "personal": {
+          "label": "Pessoal"
+        },
+        "professional": {
+          "label": "Profissional"
+        },
+        "academic": {
+          "label": "Acadêmico"
+        }
+      },
+      "libScrapper": {
+        "title": {
+          "label": "Biblioteca de Web Scraping Interno"
+        },
+        "description": {
+          "label": "Biblioteca para automatizar processos de web scraping interno. Obtendo dados de forma eficiente e reutilizável para diversos projetos internos."
+        }
+      },
       "portfolioV2": {
         "title": {
           "label": "Site Pessoal v2"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Segunda versão do meu site pessoal. O site foi desenvolvido com o intuito de apresentar minhas habilidades e experiências, além de servir como um portfólio para meus projetos. Também aproveitei para aplicar meus conhecimentos de design."
         }
       },
       "semesterUefs": {
@@ -128,7 +152,7 @@
           "label": "Semestre UEFS"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Plataforma com contagem dos dias para o fim do semestre letivo da UEFS, além de um calendário com atualizações automáticas para ajudar a comunidade acadêmica."
         }
       },
       "portfolioV1": {
@@ -136,7 +160,7 @@
           "label": "Site Pessoal v1"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Primeira versão do meu site pessoal. Atualmente ele está desatualizado."
         }
       },
       "ondeAssistir": {
@@ -144,7 +168,7 @@
           "label": "Onde Assistir"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Plataforma que reúne informações sobre onde assistir partidas de futebol ao vivo, com base em serviços disponíveis no Brasil. Desenvolvimento como projeto acadêmico."
         }
       },
       "ppbio": {
@@ -152,7 +176,7 @@
           "label": "Programa Prioritário de Bioeconomia (PPBio)"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Plataforma com listagem de projetos para capitação de recursos, focado na Amazônia Legal. Atuei desenvolvendo a API."
         }
       },
       "rhisa": {
@@ -160,7 +184,7 @@
           "label": "Rhisa"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Plataforma focado na criação de uma rede de pesquisadores atuando na Amazônia Legal. Atuei no desenvolvimento da API e no scraping dos dados."
         }
       },
       "leadbase": {
@@ -168,7 +192,7 @@
           "label": "Leadbase"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu."
+          "label": "Plataforma de gestão de dados para farmácias."
         }
       }
     },
@@ -181,7 +205,7 @@
           "label": "XXX SIECOMP"
         },
         "description": {
-          "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet egestas diam. Donec eget convallis ex. Cras nec leo risus. Nunc finibus lorem risus, id fermentum urna tempus eu.\n\nDonec id iaculis dui. Nulla sit amet euismod velit. Donec sed quam sit amet elit eleifend elementum. Morbi pellentesque ligula vel faucibus commodo. Aenean rhoncus varius ligula ut cursus. Duis congue pellentesque rutrum."
+          "label": "A palestra abordou a importância de aprender as bases, fazendo uma correlação entre a culinária e programação. A ideia foi mostrar que, assim como na culinária, é necessário entender os ingredientes e suas funções para criar um bolo elaborado, na programação é necessário entender os conceitos e suas aplicações para criar um código eficiente e de qualidade."
         }
       }
     }

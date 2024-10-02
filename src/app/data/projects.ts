@@ -13,11 +13,20 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "libScrapper",
+    year: "2024",
+    skills: ["Node.JS", "Typescript", "Web Scraping"],
+    type: "professional",
+    bond: "Geodatin",
+    images: [],
+    highlight: false,
+  },
+  {
     title: "portfolioV2",
     link: "https://laerciorios.com/",
     repository: "https://github.com/LaercioSR/personal-website-v2",
     year: "2024",
-    skills: ["Next.Js", "TypeScript"],
+    skills: ["Next.Js", "TypeScript", "Figma"],
     type: "personal",
     images: [],
     highlight: false,

@@ -1,12 +1,12 @@
 "use client";
 import "./i18n";
 import Image from "next/image";
-// import Link from "next/link";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import ArrowDownIcon from "./assets/icons/arrow-down.svg";
-// import ArrowRight from "./assets/icons/arrow-right-alt.svg";
+import ArrowRight from "./assets/icons/arrow-right-alt.svg";
 import EmailIcon from "./assets/icons/email-logo.svg";
 import GithubIcon from "./assets/icons/github-logo.svg";
 import LinkedinIcon from "./assets/icons/linkedin-logo.svg";
@@ -106,12 +106,12 @@ export default function Home() {
             <Typography variant="h3">
               {t("pages.home.projects.title.label")}
             </Typography>
-            {/* <Link href="/projects">
+            <Link href="/projects">
               <Typography variant="body1">
                 {t("pages.home.projects.seeMore.label")}
               </Typography>
               <ArrowRight />
-            </Link> */}
+            </Link>
           </div>
           <ul className={styles["projects-list"]}>
             {projectsHighlighted.map((project) => (
