@@ -1,15 +1,34 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Roboto } from "next/font/google";
+
 import "./globals.css";
+import profileImg from "./assets/profile.png";
 
 const roboto = Roboto({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Laercio Rios",
-  description: "Personal website of Laercio Rios",
+  description: "Personal website of Laercio Rios, a fullstack developer",
+  manifest: "./manifest.webmanifest",
   icons: {
     icon: "./favicon.svg",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://laerciorios.com",
+    title: "Laercio Rios",
+    siteName: "Laercio Rios",
+    description: "Personal website of Laercio Rios, a fullstack developer",
+    images: [
+      {
+        url: profileImg.src,
+        width: 800,
+        height: 800,
+        alt: "Laercio Rios",
+      },
+    ],
   },
 };
 
