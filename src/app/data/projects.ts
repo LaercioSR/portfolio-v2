@@ -75,7 +75,7 @@ export const projects: Project[] = [
     title: "rhisa",
     link: "https://rhisa.org/",
     year: "2021",
-    skills: ["Node.JS", "Typescript", "PostgreSQL", "Python", "Selenium"],
+    skills: ["Node.JS", "Typescript", "PostgreSQL", "Python", "Web Scraping"],
     type: "professional",
     bond: "Geodatin",
     images: [],
