@@ -3,7 +3,6 @@ import { ThemeProvider } from "next-themes";
 import { Roboto } from "next/font/google";
 
 import "./globals.css";
-import profileImg from "./assets/profile.png";
 
 const roboto = Roboto({ weight: ["400", "700"], subsets: ["latin"] });
 
@@ -17,13 +16,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
+    alternateLocale: "pt_BR",
     url: "https://laerciorios.com",
     title: "Laercio Rios",
     siteName: "Laercio Rios",
     description: "Personal website of Laercio Rios, a fullstack developer",
     images: [
       {
-        url: profileImg.src,
+        url: "/images/profile.png",
         width: 800,
         height: 800,
         alt: "Laercio Rios",

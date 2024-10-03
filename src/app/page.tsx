@@ -25,6 +25,7 @@ import { presentations } from "./data/presentations";
 import { projects } from "./data/projects";
 import styles from "./page.module.css";
 import { GITHUB_LINK, EMAIL_LINK, LINKEDIN_LINK } from "./utils/contrants";
+// import cvPtPdf from "../../public/cv/pt.pdf";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -132,12 +133,16 @@ export default function Home() {
             <Typography variant="h3">
               {t("pages.home.experience.title.label")}
             </Typography>
-            {/* <Link href="/">
+            <a
+              href={t("pages.home.experience.pdfResume.label")}
+              target="_blank"
+              rel="noreferrer"
+            >
               <Typography variant="body1">
                 {t("pages.home.experience.seeMore.label")}
               </Typography>
               <ArrowRight />
-            </Link> */}
+            </a>
           </div>
           <ul className={styles["experience-nested_list"]}>
             {experiencesWithActive.map((experience) => (

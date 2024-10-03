@@ -48,6 +48,9 @@
         "seeMore": {
           "label": "See my full resume"
         },
+        "pdfResume": {
+          "label": "/cv/en.pdf"
+        },
         "summary": {
           "label": "Summary"
         },

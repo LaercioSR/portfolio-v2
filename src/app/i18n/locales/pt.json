@@ -48,6 +48,9 @@
         "seeMore": {
           "label": "Veja meu currículo completo"
         },
+        "pdfResume": {
+          "label": "/cv/pt.pdf"
+        },
         "summary": {
           "label": "Resumo"
         },
