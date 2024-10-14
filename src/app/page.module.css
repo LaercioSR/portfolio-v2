@@ -246,7 +246,7 @@
 }
 
 .experience-list {
-  min-width: 22rem;
+  min-width: 27rem;
   list-style-type: none;
   display: flex;
   flex-direction: column;

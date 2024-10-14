@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
-import { Roboto } from "next/font/google";
+import { Space_Mono } from "next/font/google";
 
 import "./globals.css";
 
-const roboto = Roboto({ weight: ["400", "700"], subsets: ["latin"] });
+const spaceMono = Space_Mono({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Laercio Rios",
@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning>
-      <body className={roboto.className}>
+      <body className={spaceMono.className}>
         <ThemeProvider themes={["light", "dark"]}>{children}</ThemeProvider>
       </body>
     </html>
