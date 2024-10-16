@@ -14,6 +14,7 @@ export default function BuyMeACoffee() {
       href={BUY_ME_A_COFFEE_LINK}
       target="_blank"
       rel="noreferrer"
+      aria-label="Buy me a coffee"
     >
       <Typography variant="h4">{t("components.buyMeACoffee.label")}</Typography>
       <CoffeeSvg className={styles["buy_me_a_coffee-icon"]} />
