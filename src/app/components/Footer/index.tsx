@@ -1,7 +1,15 @@
+import BlueskyIcon from "../../assets/icons/bluesky-logo.svg";
 import EmailIcon from "../../assets/icons/email-logo.svg";
 import GithubIcon from "../../assets/icons/github-logo.svg";
+import ItchioIcon from "../../assets/icons/itchio-logo.svg";
 import LinkedinIcon from "../../assets/icons/linkedin-logo.svg";
-import { GITHUB_LINK, EMAIL_LINK, LINKEDIN_LINK } from "../../utils/contrants";
+import {
+  GITHUB_LINK,
+  ITCHIO_LINK,
+  EMAIL_LINK,
+  LINKEDIN_LINK,
+  BLUESKY_LINK,
+} from "../../utils/contrants";
 import BuyMeACoffee from "../BuyMeACoffee";
 import Typography from "../Typography";
 import styles from "./styles.module.css";
@@ -27,6 +35,16 @@ export default function Footer() {
           <li>
             <a href={GITHUB_LINK} target="_blank" rel="noreferrer">
               <GithubIcon />
+            </a>
+          </li>
+          <li>
+            <a href={ITCHIO_LINK} target="_blank" rel="noreferrer">
+              <ItchioIcon />
+            </a>
+          </li>
+          <li>
+            <a href={BLUESKY_LINK} target="_blank" rel="noreferrer">
+              <BlueskyIcon />
             </a>
           </li>
         </ul>

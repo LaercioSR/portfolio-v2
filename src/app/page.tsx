@@ -7,8 +7,10 @@ import { useTranslation } from "react-i18next";
 
 import ArrowDownIcon from "./assets/icons/arrow-down.svg";
 import ArrowRight from "./assets/icons/arrow-right-alt.svg";
+import BlueskyIcon from "./assets/icons/bluesky-logo.svg";
 import EmailIcon from "./assets/icons/email-logo.svg";
 import GithubIcon from "./assets/icons/github-logo.svg";
+import ItchioIcon from "./assets/icons/itchio-logo.svg";
 import LinkedinIcon from "./assets/icons/linkedin-logo.svg";
 import Logo from "./assets/logo.svg";
 import profileImg from "./assets/profile.png";
@@ -24,7 +26,13 @@ import { formations } from "./data/formations";
 import { presentations } from "./data/presentations";
 import { projects } from "./data/projects";
 import styles from "./page.module.css";
-import { GITHUB_LINK, EMAIL_LINK, LINKEDIN_LINK } from "./utils/contrants";
+import {
+  GITHUB_LINK,
+  EMAIL_LINK,
+  LINKEDIN_LINK,
+  ITCHIO_LINK,
+  BLUESKY_LINK,
+} from "./utils/contrants";
 // import cvPtPdf from "../../public/cv/pt.pdf";
 
 export default function Home() {
@@ -79,6 +87,16 @@ export default function Home() {
             <li>
               <a href={GITHUB_LINK} target="_blank" rel="noreferrer">
                 <GithubIcon />
+              </a>
+            </li>
+            <li>
+              <a href={ITCHIO_LINK} target="_blank" rel="noreferrer">
+                <ItchioIcon />
+              </a>
+            </li>
+            <li>
+              <a href={BLUESKY_LINK} target="_blank" rel="noreferrer">
+                <BlueskyIcon />
               </a>
             </li>
           </ul>

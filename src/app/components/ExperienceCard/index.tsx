@@ -38,7 +38,7 @@ export default function ExperienceCard({
     : t(`general.current.label`);
 
   return (
-    <li
+    <div
       className={`${styles["experience"]} ${active ? styles["experience--active"] : ""}`}
       onClick={onClick}
     >
@@ -59,6 +59,6 @@ export default function ExperienceCard({
           {active ? <ArrowUpSvg /> : <ArrowDownSvg />}
         </div>
       )}
-    </li>
+    </div>
   );
 }
