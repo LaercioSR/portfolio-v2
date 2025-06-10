@@ -13,6 +13,15 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "urlShortener",
+    year: "2025",
+    skills: ["Node.JS", "TypeScript", "PostgreSQL", "Express", "Jest"],
+    type: "personal",
+    repository: "https://github.com/LaercioSR/url-shortener",
+    images: [],
+    highlight: false,
+  },
+  {
     title: "libScrapper",
     year: "2024",
     skills: ["Node.JS", "Typescript", "Web Scraping"],

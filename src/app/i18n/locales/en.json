@@ -134,6 +134,14 @@
           "label": "Academic"
         }
       },
+      "urlShortener": {
+        "title": {
+          "label": "API for URL Shortener"
+        },
+        "description": {
+          "label": "A simple API for URL shortening. The project was developed with the aim of practicing the development of Restful APIs, using Node.js and TypeScript. The API allows URL shortening, storage in a database and redirection to the original URL."
+        }
+      },
       "libScrapper": {
         "title": {
           "label": "Internal Web Scraping Lib"

@@ -134,6 +134,14 @@
           "label": "Acadêmico"
         }
       },
+      "urlShortener": {
+        "title": {
+          "label": "API para Encurtador de URL"
+        },
+        "description": {
+          "label": "Uma API simples para encurtamento de URLs. O projeto foi desenvolvido com o intuito de praticar o desenvolvimento de APIs Restful, utilizando Node.js e TypeScript. A API permite o encurtamento de URLs, armazenamento em banco de dados e redirecionamento para a URL original."
+        }
+      },
       "libScrapper": {
         "title": {
           "label": "Biblioteca de Web Scraping Interno"
