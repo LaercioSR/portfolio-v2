@@ -22,7 +22,7 @@ export default function ProjectCard({
   const { t } = useTranslation();
 
   return (
-    <div className={styles["project"]}>
+    <li className={styles["project"]}>
       <Image
         src={`/images/projects/${title}/${image}`}
         alt={title}
@@ -53,6 +53,6 @@ export default function ProjectCard({
           )}
         </ul>
       </div>
-    </div>
+    </li>
   );
 }

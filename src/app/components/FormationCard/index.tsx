@@ -23,7 +23,7 @@ export default function FormationCard({
   const { t } = useTranslation();
 
   return (
-    <div className={styles["formation"]}>
+    <li className={styles["formation"]}>
       <div className={styles["formation-title"]}>
         <Typography variant="body1">
           {t(`data.formations.${title}.label`)}
@@ -34,6 +34,6 @@ export default function FormationCard({
       </div>
       <Typography variant="body3">{institution}</Typography>
       <Typography variant="caption2">{`${startYear} - ${endYear}`}</Typography>
-    </div>
+    </li>
   );
 }
