@@ -134,12 +134,20 @@
           "label": "Academic"
         }
       },
+      "ecope": {
+        "title": {
+          "label": "Ecological-Economic Platform of Pernambuco"
+        },
+        "description": {
+          "label": "Award-winning platform from MapBiomas, the project integrates geospatial data and information about Pernambuco's environment, improving state environmental management processes, with an emphasis on environmental monitoring, licensing, and oversight. On this project, I worked on the front end, building and maintaining pages and components, as well as integrating with the API."
+        }
+      },
       "theLegacyOfManoel": {
         "title": {
           "label": "The Legacy of Manoel"
         },
         "description": {
-          "label": "An short narrative game. The game tells the story of the first residents of the city of Pintadas in Brazil with minigame excerpts between scenes."
+          "label": "An short narrative game. The game tells the story of the first residents of the city of Pintadas in Brazil with minigame excerpts between scenes. On this project I worked alone, as a game designer and programmer, in addition to creating the art."
         }
       },
       "urlShortener": {

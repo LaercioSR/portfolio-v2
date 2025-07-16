@@ -16,7 +16,8 @@ export const projects: Project[] = [
     title: "theLegacyOfManoel",
     year: "2025",
     skills: ["Godot", "GDScript"],
-    type: "personal",
+    type: "academic",
+    bond: "UEFS",
     repository: "https://github.com/LaercioSR/the-legacy-of-manoel",
     link: "https://laerciorios.itch.io/o-legado-de-manoel",
     images: [
@@ -25,6 +26,16 @@ export const projects: Project[] = [
       "scene1.png",
       "bucketMinigame.png",
     ],
+    highlight: false,
+  },
+  {
+    title: "ecope",
+    year: "2023-2025",
+    skills: ["React", "TypeScript", "Styled Components"],
+    type: "professional",
+    bond: "Geodatin",
+    link: "https://plataformaecope.cprh.pe.gov.br/",
+    images: ["home.png"],
     highlight: false,
   },
   {
