@@ -21,7 +21,7 @@ export const projects: Project[] = [
     link: "https://laerciorios.itch.io/o-legado-de-manoel",
     images: [
       "homeScreen.png",
-      "bucketCow.png",
+      "cowMinigame.png",
       "scene1.png",
       "bucketMinigame.png",
     ],
