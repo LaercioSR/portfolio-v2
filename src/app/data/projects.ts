@@ -13,6 +13,21 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "theLegacyOfManoel",
+    year: "2025",
+    skills: ["Godot", "GDScript"],
+    type: "personal",
+    repository: "https://github.com/LaercioSR/the-legacy-of-manoel",
+    link: "https://laerciorios.itch.io/o-legado-de-manoel",
+    images: [
+      "homeScreen.png",
+      "bucketCow.png",
+      "scene1.png",
+      "bucketMinigame.png",
+    ],
+    highlight: false,
+  },
+  {
     title: "urlShortener",
     year: "2025",
     skills: ["Node.JS", "TypeScript", "PostgreSQL", "Express", "Jest"],

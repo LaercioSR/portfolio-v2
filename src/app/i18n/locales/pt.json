@@ -134,6 +134,14 @@
           "label": "Acadêmico"
         }
       },
+      "theLegacyOfManoel": {
+        "title": {
+          "label": "O Legado de Manoel"
+        },
+        "description": {
+          "label": "Um jogo narrativo curto. O jogo conta a história sobre os primeiros moradores da cidade de Pintadas no Brasil com trechos de minigames entre as cenas."
+        }
+      },
       "urlShortener": {
         "title": {
           "label": "API para Encurtador de URL"

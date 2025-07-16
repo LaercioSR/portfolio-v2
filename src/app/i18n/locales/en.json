@@ -134,6 +134,14 @@
           "label": "Academic"
         }
       },
+      "theLegacyOfManoel": {
+        "title": {
+          "label": "The Legacy of Manoel"
+        },
+        "description": {
+          "label": "An short narrative game. The game tells the story of the first residents of the city of Pintadas in Brazil with minigame excerpts between scenes."
+        }
+      },
       "urlShortener": {
         "title": {
           "label": "API for URL Shortener"
