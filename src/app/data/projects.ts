@@ -18,7 +18,8 @@ export const projects: Project[] = [
     skills: ["Godot", "GDScript"],
     type: "academic",
     bond: "UEFS",
-    repository: "https://github.com/LaercioSR/the-legacy-of-manoel",
+    repository:
+      "https://laerciorios.itch.io/o-legado-de-manoel?utm_source=laerciorios.com&utm_medium=site&utm_campaign=portfolio",
     link: "https://laerciorios.itch.io/o-legado-de-manoel",
     images: [
       "homeScreen.png",
